@@ -1,14 +1,22 @@
 package com.io;
 
+import java.io.File;
+import java.io.IOException;
 import java.io.PrintWriter;
 
 public class PrintWriterClass {
-    public static void main(String[] args) {
-        PrintWriter pw = new PrintWriter(System.out,true);
-        int value = 12;
-        double price = 4.5e-7;
-        pw.println(value);
-        pw.println(price);
+    public static void main(String[] args) throws IOException {
+        PrintWriter pw = new PrintWriter("abc.txt");
+        pw.write(100);
+        pw.write('c');
+        pw.write("Ram");
+        pw.println(100);
+        pw.println(100.12);
+        pw.println(true);
+        pw.println("Shyam");
+
+        pw.flush();
         pw.close();
+        System.out.println("Successful");
     }
 }

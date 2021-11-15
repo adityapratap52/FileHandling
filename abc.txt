@@ -1,5 +1,4 @@
-aadi
-This is my name
-Helloaadi
-This is my name
-Hello
+dcRam100
+100.12
+true
+Shyam
