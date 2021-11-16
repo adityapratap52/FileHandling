@@ -1,4 +1,4 @@
-package com.io;
+package com.io.filehandling;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
